@@ -7,8 +7,6 @@ function rectangulo(base, altura) {
     return this.base * this.altura; };
   }
   var es = new rectangulo(2,2);
-console.log(es.area());
-
 //ejercicio2
 
 function Mujer(nombre,dia,mes,nacimiento){
@@ -31,7 +29,6 @@ function Mujer(nombre,dia,mes,nacimiento){
    }
 }
    var cosa = new Mujer("Esserit",30, 10,1996);
-console.log(cosa.edad());
 
 //ejercicio 3
 function Cosa(nombre, edad,pasatiempo) {
@@ -43,4 +40,4 @@ function Cosa(nombre, edad,pasatiempo) {
   }
 }
   var men = new Cosa("Su", 34, "comer");
-  console.log(men.mensaje());
+  
