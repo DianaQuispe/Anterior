@@ -26,7 +26,7 @@ function ejercicio1(numInicial,numFinal) {
  }
  // Ejercicio3
  function Ejercicio3(array) {
- var  texto = new Object();
+ var  texto = {};
  for (var x in array) {
     var y= parseInt(x)+1;
   texto["propiedad" + y]= array[x];
