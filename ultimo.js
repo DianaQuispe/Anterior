@@ -27,16 +27,17 @@ function ejercicio1(numInicial,numFinal) {
  // Ejercicio3
  function Ejercicio3(array) {
  var  texto = new Object();
-  for (var i in array) {
-    var j = parseInt(i)+1;
-  texto["propiedad" + j]= array[i];
+  for (var x in array) {
+    var y= parseInt(x)+1;
+  texto["propiedad" + y]= array[x];
   }
     var respuesta = Object.keys(texto);
     var res = "";
-    for (var i in respuesta) {
-      res += respuesta[i] + "-->" + array[i] + ",";
+    for (var x in respuesta) {
+      res += respuesta[x] + "-->" + array[x] + ",";
     } return res.substr(0,res.length -1);
 }
+      //ejercicio4
 function ejercicio4(nombre, apellido, edad, genero, ciudad, pais) {
   this.nombre = nombre,
   this.apellido = apellido,
